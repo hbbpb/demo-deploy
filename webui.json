@@ -27,7 +27,7 @@
         "containers": [
           {
             "name": "webui",
-            "image": "192.168.56.51:5000/webui:${TAG}",
+            "image": "${IMAGE}",
             "ports": [
               {
                 "containerPort": 80
