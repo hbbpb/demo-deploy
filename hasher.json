@@ -27,7 +27,7 @@
         "containers": [
           {
             "name": "hasher",
-            "image": "192.168.56.51:5000/hasher:${TAG}",
+            "image": "${IMAGE}",
             "ports": [
               {
                 "containerPort": 80

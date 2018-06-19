@@ -27,7 +27,7 @@
         "containers": [
           {
             "name": "rng",
-            "image": "192.168.56.51:5000/rng:${TAG}",
+            "image": "${IMAGE}",
             "ports": [
               {
                 "containerPort": 80
